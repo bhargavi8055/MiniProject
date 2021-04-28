@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+
+  <head>
+    <title>Form Demo</title>
+    <meta charset = "UTF-8" />
+   <style>
+body{
+margin: 0;
+padding: 0;
+background: url(bg_sky.jpg);
+background-size: cover;
+background-position: left;
+font-family: sans-serif;
+}
+h1
+{
+background-color:black;
+color:white;
+}
+
+
+</style>
+  </head>
+  <body >
+    <h1>hurryup.. to reserve Projector</h1>
+    <form method="post" action="ProjectorReserve.php">
+       <fieldset>
+          <legend>Select The Following</legend>
+          <p>
+             <label>Select section</label>
+             <select id = "myList"  name="myList" value="myList">
+	
+               <option value = "2-cse-a">2-cse-a</option>
+               <option value = "2-cse-b">2-cse-b</option>
+               <option value = "2-cse-c">2-cse-c</option>
+               <option value = "2-cse-d">2-cse-d</option>
+	<option value = "3-cse-a">3-cse-a</option>
+	<option value = "3-cse-b">3-cse-b</option>
+	<option value = "3-cse-c">3-cse-c</option>
+	<option value = "3-cse-d">3-cse-d</option>
+	<option value = "4-cse-a">4-cse-a</option>
+	<option value = "4-cse-b">4-cse-b</option>
+	<option value = "4-cse-c">4-cse-c</option>
+	<option value = "4-cse-d">4-cse-d</option>
+             </select>
+          </p>
+          <p>
+        	<label>ReservingDate:</label>
+	<input type="datetime-local" name="reservingTime"/></br>
+       </p>
+       <p>
+	<label>SubmissionDate:</label>
+	<input type="datetime-local" name="submissionTime"/>
+	</br>
+      </p>
+	<input type="submit" value="submit"/>  
+          
+       </fieldset>
+      
+        
+      
+      
+       
+    </form>
+  </body>
+</html>
